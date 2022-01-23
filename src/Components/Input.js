@@ -26,12 +26,15 @@ const Input = (props) => {
 		}
 	};
 
-	useEffect(() => {
-		addField({
-			field: props,
-			value
-		});
-	}, []);
+	useEffect(
+		() => {
+			addField({
+				field: props,
+				value
+			});
+		},
+		[ addField, props, value ]
+	);
 
 	const fieldProps = {
 		...restEvents,
