@@ -31,15 +31,15 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### How to run this project :
  
- Required : Node Js latest version
- clone project from https://github.com/Upendragorrepati/delivery-form.git
- cd delivery-form
- npm install
- npm start
+ Required : Node Js latest version \
+ clone project from https://github.com/Upendragorrepati/delivery-form.git \
+ cd delivery-form \
+ npm install \
+ npm start \
 
  ### Things to be finished:
- Have to make minor adustmnets for small screens as wireframes can be different. I left it for now
- Mandatory field checks and validation can be added before submit call
+ Have to make minor adustmnets for small screens as wireframes can be different. I left it for now\
+ Mandatory field checks and validation can be added before submit call \
  
  
 http://localhost:3000/delivery
