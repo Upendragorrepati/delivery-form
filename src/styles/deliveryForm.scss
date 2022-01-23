@@ -80,11 +80,23 @@
 					font-size: 12px;
 					position: relative;
 					top: -2px;
+					font-weight: bold;
 				}
 			}
 			input[type="text"] {
 				padding: 10px;
 				max-width: 400px;
+			}
+			input[type="submit"] {
+				text-align: center;
+				border: 2px solid blue;
+				background: blue;
+				cursor: pointer;
+				color: white;
+				width: 100%;
+				max-width: 400px;
+				padding: 5px;
+				border-radius: 5px;
 			}
 			textarea {
 				padding: 15px 10px;

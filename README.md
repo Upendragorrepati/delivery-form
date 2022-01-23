@@ -36,5 +36,10 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
  cd delivery-form
  npm install
  npm start
+
+ ### Things to be finished:
+ Have to make minor adustmnets for small screens as wireframes can be different. I left it for now
+ Mandatory field checks and validation can be added before submit call
+ 
  
 http://localhost:3000/delivery

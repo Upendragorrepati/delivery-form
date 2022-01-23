@@ -34,6 +34,7 @@ const DeliveryForm = () => {
 				<div className="right">
 					<div className="cart">
 						<ShoppingCartOutlinedIcon />
+						{/* should set dynamioc value */}
 						<span> (2) </span>
 					</div>
 					<div className="profile">
