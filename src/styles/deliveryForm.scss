@@ -1,0 +1,83 @@
+.DeliveryForm {
+  margin: 1% 20%;
+  .DeliveryForm__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    input {
+      padding: 3px;
+    }
+    .left {
+      display: flex;
+      p {
+        padding: 0;
+        margin: 5px 0px 0px 20px;
+      }
+    }
+    .right {
+      display: flex;
+      .cart {
+        position: relative;
+        span {
+          position: absolute;
+          left: 25px;
+
+          font-size: 14px;
+          top: 2 px;
+        }
+      }
+      .profile {
+        margin-left: 30px;
+      }
+      .profile :first-child {
+        margin-right: -10px;
+      }
+    }
+    input {
+      width: 50%;
+      border-radius: 50px;
+      max-width: 500px;
+    }
+  }
+  .DeliveryForm__heading {
+    text-align: center;
+  }
+  .DeliveryForm__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    form {
+      margin: 2% 25% 2% 25%;
+      .firstrow {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 400px;
+      }
+      .addressLookupButton button {
+        border: none;
+        background: none;
+        cursor: pointer;
+        position: relative;
+        top: -8px;
+        left: 20px;
+        color: blue;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        width: 100%;
+        max-width: 400px;
+      }
+      input[type="text"] {
+        padding: 10px;
+        max-width: 400px;
+      }
+      textarea {
+        padding: 15px 10px;
+        max-width: 400px;
+      }
+    }
+  }
+}
